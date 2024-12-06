@@ -3,14 +3,63 @@
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 200;
     font-style: normal;
+    font-size: 1.1rem;    /*25px*/
 }
 
+/*Title*/
+.title {
+    color: rgb(2, 207, 9);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
 .title h1{
-    color: rgb(2, 207, 9);
+    font-weight: 600;
+    font-size: 75px;
+    margin: 0;   
 }
 
-.title h1:hover {
-    font-weight: 300;
-    color: rgb(146, 196, 147);
+.title p{
+    margin: 0;
 }
+
+
+/*Heading*/
+.heading {
+    color: rgb(2, 207, 9);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.heading a {
+    color: rgb(2, 207, 9);
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.heading span {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: underline;
+}
+
+
+
+/*Content*/
+.content {
+    /* color: aliceblue; */
+    color: aliceblue;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.content a{
+    /* color: aliceblue; */
+    color: aliceblue;
+}
+
