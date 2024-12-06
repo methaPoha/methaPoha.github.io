@@ -1,0 +1,16 @@
+* {
+    background-color: rgb(6, 7, 40);
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.title h1{
+    color: rgb(2, 207, 9);
+}
+
+.title h1:hover {
+    font-weight: 300;
+    color: rgb(146, 196, 147);
+}
