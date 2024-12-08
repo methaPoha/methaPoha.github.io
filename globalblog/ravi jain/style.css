@@ -114,6 +114,13 @@ h2 {
     font-weight: 300;
 }
 
+img {
+    width: 100%; /* Scales to width of container */
+    height: auto; /* Maintains aspect ratio */
+            /* Set maximum width */
+    max-width: 600px; /* Prevents image from getting too large on big screens */
+}
+
 footer p{
     margin-top: 0;
     margin-bottom: 0;
@@ -132,3 +139,4 @@ footer hr{
     margin: 0;
     margin-top: 5rem;
 }
+
