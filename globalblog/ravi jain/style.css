@@ -140,3 +140,8 @@ footer hr{
     margin-top: 5rem;
 }
 
+.blog-date {
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
