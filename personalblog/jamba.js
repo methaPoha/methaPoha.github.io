@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const blogs = [
         { folder: 'day1 at college', date: '2024-01-15' },
         { folder: 'day 2', date: '2024-02-20' },
-        // Add more blogs with their dates
+        { folder: 'piece', date: '2024-12-12' }
     ];
 
     const blogContainer = document.getElementById('blog-container');
