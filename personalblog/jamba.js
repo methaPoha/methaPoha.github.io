@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // List of blogs with date (YYYY-MM-DD format recommended)
     const blogs = [
-        { folder: 'piece', date: '2024-12-13' }
+        { folder: 'piece', date: '2024-12-21' }
     ];
 
     const blogContainer = document.getElementById('blog-container');
