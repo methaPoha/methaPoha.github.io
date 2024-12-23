@@ -10,3 +10,10 @@ website made by someone who always make eyecontact with.
 2. Som Singh: motive ki main, behind this website
 3. Jyotish Khatik: Oye tere ben ki chut
 4. Aashutosh Baghel: usko beta tester bana liya(lets go)
+
+
+# questions:
+1. flutter or *react*?
+4. *cloud* ya self?
+2. hackathon values? yes
+3. intership values? yes, only if you get to learn something
