@@ -1,3 +1,2 @@
 # Enable Jekyll processing
-kramdown:
-  input: Kramdown
+markdown: kramdown
