@@ -182,3 +182,7 @@ footer hr{
 .read-more:hover {
     box-shadow: 0 0 10px 3px rgba(0, 208, 0, 0.6);
 }
+
+.z {
+    color: var(--primary-color);
+}
