@@ -121,6 +121,12 @@ img {
     max-width: 600px; /* Prevents image from getting too large on big screens */
 }
 
+img[width] {
+    width: attr(width px); /* This doesn't work in current browsers */
+    width: initial; /* Reset the 100% width */
+    max-width: min(100%, 600px); /* Take the smaller of container width or 600px */
+}
+
 footer *{
     font-size: 0.8rem;
 }
