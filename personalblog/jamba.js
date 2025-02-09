@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { folder: 'piece', date: '2025-01-16' },
         { folder: 'day1', date: '2024-12-23' },
         {folder: 'personalthought', date: '2024-12-27'},
-        {folder: 'S17', date: '2025-02-02'}
+        {folder: 'S17', date: '2025-02-02'},
+        {folder: 'dismokes', date: '2025-02-10'}
     ];
 
     const blogContainer = document.getElementById('blog-container');
@@ -40,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3 class="blog-title">${title}</h3>
                     <p class="blog-date">${blogInfo.date}</p>
                     <p class="blog-excerpt">${excerpt}</p>
-                    <a href="${blogInfo.folder}/index.html" class="read-more">Read More</a>
+                    <a href="${blogInfo.folder}" class="read-more">Read More</a>
                 </div>
             `;
 
