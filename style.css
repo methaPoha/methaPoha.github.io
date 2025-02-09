@@ -150,3 +150,15 @@ footer hr{
 .context {
     color: #666;
 }
+
+.highlight {
+    background-color: rgba(255, 255, 0, 0.5); /* Soft yellow highlight */
+    padding: 2px 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.6); /* Glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.highlight:target {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.9); /* Stronger glow when linked */
+}
