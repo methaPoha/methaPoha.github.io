@@ -152,15 +152,15 @@ footer hr{
 }
 
 .highlight {
-    transition: background-color 1s ease-out;
+    transition: background-color 1s cubic-bezier(0, 0.69, 0.84, 0.05);
 }
 
 .highlight:target {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.5);
     animation: fadeOut 2s forwards;
 }
 
 @keyframes fadeOut {
-    0% { background-color: lightgray; }
+    0% { background-color: rgba(211, 211, 211, 0.5); }
     100% { background-color: transparent; }
 }
