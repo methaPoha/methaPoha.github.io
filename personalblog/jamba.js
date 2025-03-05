@@ -2,9 +2,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     // List of blogs with date (YYYY-MM-DD format recommended)
     const blogs = [
-        { folder: 'piece', date: '2025-03-02' },
+        { folder: 'piece', date: '2025-03-04' },
         { folder: 'day1', date: '2024-12-23' },
-        {folder: 'personalthought', date: '2025-03-02'},
+        {folder: 'personalthought', date: '2025-03-04'},
         {folder: 'S17', date: '2025-02-02'},
         {folder: 'dismokes', date: '2025-02-10'},
         {folder: 'GRdata', date: '2025-02-26'}
