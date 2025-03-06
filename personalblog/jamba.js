@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const blogs = [
         { folder: 'piece', date: '2025-03-05' },
         { folder: 'day1', date: '2024-12-23' },
-        {folder: 'personalthought', date: '2025-03-04'},
+        {folder: 'personalthought', date: '2025-03-06'},
         {folder: 'S17', date: '2025-02-02'},
         {folder: 'dismokes', date: '2025-02-10'},
         {folder: 'GRdata', date: '2025-02-26'},

@@ -143,12 +143,14 @@ footer hr{
 
 .blog-date {
     color: #666;
-    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-bottom: 5px;
     font-size: 0.9em;
 }
 
 .context {
     color: #666;
+    margin-bottom: 5px;
 }
 
 .highlight {
