@@ -121,6 +121,13 @@ img {
     max-width: 600px; /* Prevents image from getting too large on big screens */
 }
 
+video {
+    width: 100%; /* Scales to width of container */
+    height: auto; /* Maintains aspect ratio */
+            /* Set maximum width */
+    max-width: 600px; /* Prevents image from getting too large on big screens */
+}
+
 footer *{
     font-size: 0.8rem;
 }
