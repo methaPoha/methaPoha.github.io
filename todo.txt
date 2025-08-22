@@ -1,3 +1,6 @@
+## top prior:
+- analytics
+
 so when's you gonna add database to this thing?
 
 
