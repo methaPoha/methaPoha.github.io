@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting…</title>
+
+  <!-- Meta refresh fallback for non-JS browsers (0 = immediate, change to N for seconds) -->
+  <meta http-equiv="refresh" content="0;url=https://www.youtube.com/watch?v=VIDEO_ID">
+
+  <style>
+    /* small, unobtrusive page while redirect happens */
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+    .wrap{display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:.5rem}
+    a{color:inherit;text-decoration:underline}
+  </style>
+</head>
+<body>
+  <div class="wrap" aria-live="polite">
+    <h1>Redirecting to YouTube…</h1>
+    <p>If you are not redirected automatically, <a id="fallback" href="https://www.youtube.com/watch?v=VIDEO_ID">click here</a>.</p>
+  </div>
+
+  <script>
+    // Change this to your video link
+    const youtubeUrl = "https://www.youtube.com/watch?v=VIDEO_ID";
+
+    // Use replace() so the redirect doesn't create a history entry
+    location.replace(youtubeUrl);
+  </script>
+</body>
+</html>
